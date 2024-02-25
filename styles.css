@@ -24,7 +24,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 60px;
 }
 
 .header-logo {
@@ -43,7 +44,7 @@ body {
 .header-link {
     text-decoration: none;
     color: #cfd1d4;
-    font-size: 28px;
+    font-size: 18px;
     font-weight: 300;
 }
 
@@ -117,6 +118,7 @@ body {
     gap: 50px;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
 .info {
@@ -141,4 +143,91 @@ body {
     width: 200px;
     align-items: center;
     text-align: center;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quote-text {
+    width: 59%;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    align-self: center;
+}
+
+.quote-author {
+    align-self: flex-end;
+    margin-right: 15%;
+    color: #1f2937;
+    font-weight: 500;
+}
+
+.ad-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.ad {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #3882f6;
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    width: 70%;
+    gap:20%;
+    border-radius: 10px;
+}
+
+.ad-left {
+    display: flex;
+    flex-direction: column;;
+}
+
+.ad-text {
+    color: #F9FAF8;
+}
+
+.ad-description {
+    color: #F9FAF8;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.ad-button {
+    background-color: #3882f6;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: 1000;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.footer-text {
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
 }
